@@ -1,0 +1,25 @@
+
+#app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 150px;
+  flex-wrap: wrap;
+  height: 100svh;
+}
+
+.carta{
+  width: 150px;
+  height: 200px;
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+  background-color: #700056;
+  background-image: url("https://www.transparenttextures.com/patterns/elastoplast.png");
+}
+
+.carta:hover{
+  transform:scale(1.1) ;
+}
